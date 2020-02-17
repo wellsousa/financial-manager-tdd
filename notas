@@ -1,0 +1,22 @@
+
+- quando se cria um test voce deve garantir que alem da funcionalidade recem criada esteja funcionando corretamente todas as funcionalidades anteriores tambem
+devem permanecer funcionando e nesse caso voce deve rodar os testes das outras
+ funcionalidades.
+
+- quando a aplicação cresce muito(com muitas funcionalides) pode ser impossivel fazer
+ isso manualmente, por isso, deve-se criar os testes automatizados.
+
+- Desevolvimento da aplicação orientada a testes. Basicamente quando for criar uma
+ funcionalide você primeiro criará o test que quando rodoado obviamente falhará. Então 
+você criará a nova funcionalidade para atender aos critérios daquele teste e fazer o 
+teste funcionar corretamente.
+
+- Os testes criados dentro dessa perspectiva também funcionam como a documentação da 
+aplicação. Quando alguem precisar entender o que a aplicação faz basta analisar
+a suite de testes e os seus retornos.
+
+- Você nunca consegue afirmar que uma aplicação está TOTALMENTE livre de erros mas vocẽ
+ pode afirmar que os cenários testados estão livres de erros.
+
+- Pensar em funcionalidades orientadas a testes pode ser dificil num primeiro momento mas garante
+inclusive que a regra de negocio foi bem entendida e será aplicada de forma correta.
